@@ -1,0 +1,14 @@
+body {
+	background-color: #614134;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #FFF;
+	font-weight: bold;
+}
+
+.white-background {
+	background-color:#fff;
+}
+
+.black-text {
+	color: #000;
+}
