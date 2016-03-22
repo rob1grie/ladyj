@@ -54,22 +54,26 @@ h5 a:hover {
 										HEADER styles
 =========================================================*/
 #header {
-  padding: 20px 0;
-  background: #d94d3a;
+  padding: 5px 0;
+  background: #ffcce6;
+  border-bottom: 1px solid #d94d3a;
 }
 #header h1 {
   float: left;
-  padding-left: 40px;
-  background: url(../images/logo.png) 0 15px no-repeat;
+  padding-left: 10px;
+  padding-bottom: 5px;
+/*  background: url(../images/logo.png) 0 15px no-repeat;*/
   color: #ffffff;
 }
 #header h1 a {
-  font: 700 44px/44px 'Open Sans', sans-serif;
-  color: #ffffff;
+  font: 700 44px/24px 'Open Sans', sans-serif;
+  color: #8d2a59;
 }
+
 #header h1 span {
   display: block;
-  font: 24px/24px 'Marvel', sans-serif;
+  font: 900 22px/15px 'Marvel', sans-serif;
+  margin: -12px 0px 0px 50px;
 }
 #header nav {
   float: right;
@@ -111,7 +115,7 @@ h5 a:hover {
   position: relative;
 }
 .sf-menu > li > a:hover {
-  color: #ffffff;
+  color: #bf5d8c;
 }
 .sf-menu > li > a:hover:after {
   content: "";
@@ -126,7 +130,8 @@ h5 a:hover {
   padding-right: 0;
 }
 .sf-menu > li.current > a {
-  color: #ffffff;
+  color: #614134;
+  /*font-weight: bolder;*/
 }
 .sf-menu > li.current > a:after {
   content: "";
@@ -134,7 +139,7 @@ h5 a:hover {
   width: 100%;
   background: #dbb3ae;
   position: absolute;
-  bottom: -30px;
+  bottom: -25px;
   left: 0;
 }
 @media only screen and (max-width: 979px) {
@@ -222,9 +227,9 @@ h5 a:hover {
 /* Stuck menu styles
 ========================================================*/
 .isStuck {
-  background: #d94d3a;
+  background: #ffcce6;
   z-index: 9;
-  padding: 0;
+  padding: 10px 0;
   border-bottom: 1px solid #d94d3a;
 }
 .isStuck nav {
@@ -437,8 +442,8 @@ p {
   width: 278px;
 }
 .index .block-3 {
-  padding: 123px 0 50px;
-  background: url(../images/index_img_par.jpg);
+  /*padding: 123px 0 50px;*/
+  background: url(../images/wall-shelf-b.jpg);
   background-attachment: fixed;
   background-position: center 0%;
   position: relative;
@@ -701,8 +706,9 @@ p {
 										FOOTER styles
 =========================================================*/
 #footer {
-  background: #d94d3a;
-  padding: 100px 0 0;
+  background: #ffcce6;
+  border-top: 1px solid #d94d3a;
+  padding: 50px 0 0;
   color: #000000;
 }
 #footer a {
@@ -732,7 +738,7 @@ p {
   color: #fff;
 }
 #footer .copyright pre {
-  color: #ffffff;
+  color: #423e3e;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   margin-bottom: 10px;

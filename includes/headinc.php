@@ -1,6 +1,14 @@
-<html lang="en">
-	<head>
-	<title>Home</title>
+<?php
+/*
+ *	Variables to set before page loads:
+ *		$page_title
+ */
+
+
+?>
+
+<head>
+	<title>Lady J's Body Wraps and More | <?php echo $page_title; ?></title>
 	<meta charset="utf-8">
 	<meta name = "format-detection" content = "telephone=no" />
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -37,4 +45,4 @@
 		<script src="js/html5shiv.js"></script>
 		<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
 	<![endif]-->
-	</head>
+</head>

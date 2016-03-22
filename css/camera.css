@@ -173,15 +173,18 @@
 .camera_caption h3 {
 	font-size: 60px;
 	line-height: 70px;
-	color: #fff;
+	color: #a6517a;
 	margin-bottom: 25px;
 	text-align: center;
+	font-weight: 900;
+	text-shadow: 1px 1px #fff,
+		2px 2px #614134;
 }
 .camera_caption p {
-	font-size: 36px;
-	color: #fff;
+	font-size: 24px;
+	color: #614134;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
+	font-weight: 500;
 	margin-top: 5%;
 }
 .camera_caption .bd-ra {
