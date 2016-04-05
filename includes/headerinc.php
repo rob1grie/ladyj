@@ -37,7 +37,7 @@ switch ($current) {
 				<div class="grid_12">
 					<h1>
 						<a href="index.php">
-							<img src="../images/logo_175x88.png" alt="logo" />
+							<img src="images/logo_175x88.png" alt="logo" />
 							<span>Body Wraps and More</span>
 						</a>
 					</h1>
