@@ -21,20 +21,20 @@ require_once 'includes/headinc.php';
 				<div class="grid_8">
 					<article class="clearfix">
 						<div class="grid_4 alpha">
-							<div class="img_container"><img src="images/index-3_img-1.jpg" alt="img"></div>
+							<div class="img_container"><img src="images/bodywrap-pink-img.jpg" alt="img"></div>
 						</div>
 						<div class="grid_4">
-							<h5><a href="#">Derto minol</a></h5>
-							<p>Gamus at magna non nunc tristique rhoncuseri tym. Aliquam nibh ante, egestas id dictum aterert commodo re luctus libero. Praesent faucibus malesuada cibuste. Donec laoreet metus id laoreet malesuada. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur orci sed Curabitur vel lorem sit amet nulla ullamcorper fermentum. In vitae varius augue, eu consectetur ligula. Etiam dui eros, laoreet sit amet est vel, commodo venenatis eros.Lamus at magna non nunc tristique rhoncuseri tym. </p>
+							<h5><a href="#">Infrared Body Wrap</a></h5>
+							<p></p>
 						</div>
 					</article>
 					<article class="clearfix">
 						<div class="grid_4 alpha">
-							<div class="img_container"><img src="images/index-3_img-2.jpg" alt="img"></div>
+							<div class="img_container"><img src="images/foot-detox-img.jpg" alt="img"></div>
 						</div>
 						<div class="grid_4">
-							<h5><a href="#">Gerto sinol</a></h5>
-							<p>Hamus at magna non nunc tristique rhoncuseri tym. Aliquam nibh ante, egestas id dictum aterert commodo re luctus libero. Praesent faucibus malesuada cibuste. Donec laoreet metus id laoreet malesuada. <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur orci sed Curabitur vel lorem sit amet nulla ullamcorper fermentum. In vitae varius augue, eu consectetur ligula. Etiam dui eros, laoreet sit amet est vel, commodo venenatis eros.Lamus at magna non nunc tristique rhoncuseri tyme. </p>
+							<h5><a href="#">Foot Detox</a></h5>
+							<p></p>
 						</div>
 					</article>
 					<article class="clearfix">
@@ -42,26 +42,8 @@ require_once 'includes/headinc.php';
 							<div class="img_container"><img src="images/index-3_img-3.jpg" alt="img"></div>
 						</div>
 						<div class="grid_4">
-							<h5><a href="#">Ferto minolor</a></h5>
-							<p>Gamus at magna non nunc tristique rhoncuseri tym. Aliquam nibh ante, egestas id dictum aterert commodo re luctus libero. Praesent faucibus malesuada cibuste. Donec laoreet metus id laoreet malesuada. <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur orci sed Curabitur vel lorem sit amet nulla ullamcorper fermentum. In vitae varius augue, eu consectetur ligula. Etiam dui eros, laoreet sit amet est vel, commodo venenatis eros.Lamus at magna non nunc tristique rhoncuseri tym. </p>
-						</div>
-					</article>
-					<article class="clearfix">
-						<div class="grid_4 alpha">
-							<div class="img_container"><img src="images/index-3_img-4.jpg" alt="img"></div>
-						</div>
-						<div class="grid_4">
-							<h5><a href="#">Herto inolot</a></h5>
-							<p>Kamus at magna non nunc tristique rhoncuseri tym. Aliquam nibh ante, egestas id dictum aterert commodo re luctus libero. Praesent faucibus malesuada cibuste. Donec laoreet metus id laoreet malesuada. <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur orci sed Curabitur vel lorem sit amet nulla ullamcorper fermentum. In vitae varius augue, eu consectetur ligula. Etiam dui eros, laoreet sit amet est vel, commodo venenatis eros.Lamus at magna non nunc tristique rhoncuseri tymer. </p>
-						</div>
-					</article>
-					<article class="clearfix">
-						<div class="grid_4 alpha">
-							<div class="img_container"><img src="images/index-3_img-5.jpg" alt="img"></div>
-						</div>
-						<div class="grid_4">
-							<h5><a href="#">Lerto minoled</a></h5>
-							<p>Jamus at magna non nunc tristique rhoncuseri tym. Aliquam nibh ante, egestas id dictum aterert commodo re luctus libero. Praesent faucibus malesuada cibuste. Donec laoreet metus id laoreet malesuada. <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur orci sed Curabitur vel lorem sit amet nulla ullamcorper fermentum. In vitae varius augue, eu consectetur ligula. Etiam dui eros, laoreet sit amet est vel, commodo venenatis eros.Lamus at magna non nunc tristique rhoncuseri tymeq. </p>
+							<h5><a href="#">Three Day Cleanse</a></h5>
+							<p></p>
 						</div>
 					</article>
 				</div>
@@ -97,16 +79,16 @@ require_once 'includes/headinc.php';
 						</header>
 					</div>
 				<div class="grid_4">
-					<div class="text_content"><p>Gamus at magna non nunc tristique rhoncuseri tym. Aliquam nibh ante, egestas id dictum aterert commodo re luctus libero. Praesent faucibus malesuada cibuste. Donec laoreet metus id laoreet malesuada.</p> </div>
-					<h5>Sandra Kromstein</h5>
+					<div class="text_content"><p>"I love the exclusive pampering and the relaxing environment. Lady J is a great listener and tailors her services to fit your goals. On my first visit, I was very stressed and flabby. When I left, I was relaxed and the flab looked ironed out. On my second visit, I was svelte! Flawless."</p> </div>
+					<h5>Sharon S. 6/02/15</h5>
 				</div>
 				<div class="grid_4">
-					<div class="text_content"><p>Tamus at magna non nunc tristique rhoncuseri tym. Aliquam nibh ante, egestas id dictum aterert commodo re luctus libero. Praesent faucibus malesuada cibuste. Donec laoreet metus id laoreet malesuada.</p> </div>
-					<h5>Thomas Klimt</h5>
+					<div class="text_content"><p>"I had several appointments with Jessie. She is very professional and awesome individual. She has a golden heart. I have become her permanent customer because she goes above and beyond to please her customers. Her positive attitude and encouragement really motivates me and I always look forward to my next appointment. Love you Jessie !"</p></div>
+					<h5>Suzana M. 5/24/15</h5>
 				</div>
 				<div class="grid_4">
-					<div class="text_content"><p>Hamus at magna non nunc tristique rhoncuseri tym. Aliquam nibh ante, egestas id dictum aterert commodo re luctus libero. Praesent faucibus malesuada cibuste. Donec laoreet metus id laoreet malesuada.</p> </div>
-					<h5>Moyra Freeman</h5>
+					<div class="text_content"><p>"Loved my session with Jesse, it was very informative and she makes the whole experience a comfortable one. It was a body and spiritual cleanliness. Can' t wait for my next session."</p></div>
+					<h5>Nicki C. 4/13/15</h5>
 				</div>
 			</div>
 		</div>
@@ -115,19 +97,5 @@ require_once 'includes/headinc.php';
 
 <?php require_once 'includes/footerinc.php'; ?>
 
-<footer id="footer">
-	<div class="container">
-		<div class="row">
-			<div class="grid_12 copyright">
-				<h2><span>Follow Us</span></h2>
-				<a href="#" class="btn bd-ra"><span class="fa fa-facebook"></span></a>
-				<a href="#" class="btn bd-ra"><span class="fa fa-tumblr"></span></a>
-				<a href="#" class="btn bd-ra"><span class="fa fa-google-plus"></span></a>
-				<pre>© <span id="copyright-year"></span> |  Privacy Policy</pre>
-			</div>
-		</div>
-	</div>
-	<div class="footer_bottom"><a href="http://www.templatemonster.com/" rel="nofollow"><img src="images/footer-logo.png" alt="logo"></a></div>
-</footer>
 </body>
 </html>

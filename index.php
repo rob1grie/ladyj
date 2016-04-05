@@ -12,13 +12,9 @@ require_once 'includes/headinc.php';
 	<div class="full-width-container block-1">
 		<div class="camera_container">
 			<div id="camera_wrap">
-				<div class="item" data-src="images/wasteline.jpg">
+				<div class="item" data-src="images/welcome-slide.jpg">
 					<div class="camera_caption fadeIn">
-						<h3>We'll Give Your Business Fresh Ideas</h3>
-						<p>Contact Us by</p>
-						<a href="#" class="btn bd-ra"><span class="fa fa-envelope-o"></span></a>
-						<a href="#" class="btn bd-ra"><span class="fa fa-phone"></span></a>
-						<a href="#" class="btn bd-ra"><span class="fa fa-map-marker"></span></a>
+						<h3>&nbsp;</h3>
 					</div>
 				</div>
 				<div class="item" data-src="images/bodywrap.jpg">
@@ -28,6 +24,11 @@ require_once 'includes/headinc.php';
 						<a href="#" class="btn bd-ra"><span class="fa fa-envelope-o"></span></a>
 						<a href="#" class="btn bd-ra"><span class="fa fa-phone"></span></a>
 						<a href="#" class="btn bd-ra"><span class="fa fa-map-marker"></span></a>
+					</div>
+				</div>
+				<div class="item" data-src="images/stones-candles-slide.jpg">
+					<div class="camera_caption fadeIn">
+						<h3>&nbsp;</h3>
 					</div>
 				</div>
 			</div>
