@@ -26,7 +26,7 @@ require_once 'includes/headinc.php';
 						<a href="#" class="btn bd-ra"><span class="fa fa-map-marker"></span></a>
 					</div>
 				</div>
-				<div class="item" data-src="images/stones-candles-slide.jpg">
+				<div class="item" data-src="images/foot-spa-slide.jpg">
 					<div class="camera_caption fadeIn">
 						<h3>&nbsp;</h3>
 					</div>
@@ -62,11 +62,14 @@ require_once 'includes/headinc.php';
 						<h2><span>Services</span></h2>
 					</header>
 				</div>
-				<div class="grid_6">
+				<div class="grid_4">
 					<div class="element"><h3><a href="#">Body Wraps</a></h3></div>
 				</div>
-				<div class="grid_6">
+				<div class="grid_4">
 					<div class="element"><h3><a href="#">Foot Detox</a></h3></div>
+				</div>
+				<div class="grid_4">
+					<div class="element"><h3><a href="#">3 Day Cleanse</a></h3></div>
 				</div>
 			</div>
 		</div>

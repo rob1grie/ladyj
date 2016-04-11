@@ -7,8 +7,7 @@
 				<a href="#" class="btn bd-ra"><span class="fa fa-facebook"></span></a>
 				<a href="#" class="btn bd-ra"><span class="fa fa-tumblr"></span></a>
 				<a href="#" class="btn bd-ra"><span class="fa fa-google-plus"></span></a>
-				<pre>© <span id="copyright-year"></span> |  Privacy Policy</pre>
-				More <a rel="nofollow" href="http://www.templatemonster.com/category/advertising-agency-website-templates/" target="_blank">Advertising Agency Website Templates at TemplateMonster.com</a>
+				<pre>© <span id="copyright-year"></span> Lady J's Body Wraps and More</pre>
 			</div>
 		</div>
 	</div>

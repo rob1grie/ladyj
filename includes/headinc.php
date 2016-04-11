@@ -9,7 +9,6 @@
 
 <head>
 	<title>Lady J's Body Wraps and More | <?php echo $page_title; ?></title>
-	<link href='https://fonts.googleapis.com/css?family=Alex+Brush' rel='stylesheet' type='text/css'>
 	<meta charset="utf-8">
 	<meta name = "format-detection" content = "telephone=no" />
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
