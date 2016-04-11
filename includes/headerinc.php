@@ -43,23 +43,25 @@ switch ($current) {
 					</h1>
 					<nav>
 						<ul class="sf-menu">
-							<li class="<?php echo $index_class; ?>"><a href="index.php">Home</a>
-								<!--								<ul>
-																	<li><a href="#">Home menu 1</a></li>
-																	<li><a href="#">Home menu 2</a>
-																		<ul>
-																			<li><a href="#">Home menu 2a</a></li>
-																			<li><a href="#">Home menu 2b</a></li>
-																			<li><a href="#">Home menu 2c</a></li>
-																		</ul>
-																	</li>
-																	<li><a href="#">Home menu 3</a></li>
-																</ul>-->
-							</li>
+							<li class="<?php echo $index_class; ?>"><a href="index.php">Home</a></li>
 							<li class="<?php echo $about_class; ?>"><a href="about.php">About</a></li>
-							<!--<li class="<?php echo $projects_class; ?>"><a href="projects.php">Projects</a></li>-->
-							<li class="<?php echo $services_class; ?>"><a href="services.php">Services</a></li>
-							<li class="<?php echo $contact_class; ?>"><a href="contact.php">Contact Us</a></li>
+							<li class="<?php echo $services_class; ?>"><a href="services.php">Services</a>
+								<ul>
+									<li><a href="bodywraps.php">Body Wraps</a></li>
+									<li><a href="footdetox.php">Foot Detox</a></li>
+									<li><a href="cleanse.php">3 Day Cleanse</a></li>
+								</ul>
+							</li>
+							<li class="<?php echo $contact_class; ?>"><a href="contact.php">Contact Us</a>
+								<ul>
+									<li><a href="contact.php">Contact Us</a></li>
+									<li>
+										<a href="https://www.styleseat.com/v/jessiemayberry?utm_campaign=579998&utm_medium=Widgets&utm_source=Badges&utm_content=button" target="_blank">
+											Schedule an<br>Appointment
+										</a>
+									</li>
+								</ul>								
+							</li>
 						</ul>
 					</nav>
 				</div>

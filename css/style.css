@@ -306,6 +306,18 @@ p {
 	font: 14px/24px 'Open Sans', sans-serif;
 	color: #727070;
 }
+
+.content_list ul {
+	list-style: square inside;
+	font: 14px/24px 'Open Sans', sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	color: #727070;	
+	padding: 10px 0px 10px 50px;
+	margin: 0 auto;
+	width: 50%;
+}
+
 .full-width-container {
 	width: 100%;
 }
@@ -313,9 +325,29 @@ p {
 	overflow: hidden;
 }
 .img_container img {
+	padding: 2px;
 	width: 100%;
 	border-top: solid 2px #614134;
 	border-left: solid 2px #614134;
+}
+.three_border img {
+	width: 100%;
+	border-top: solid 2px #614134;
+	border-left: solid 2px #614134;
+	border-bottom: solid 2px #614134;
+}
+.float_right_img {
+    float: right;
+    margin: 0 0 5px 5px;
+    padding: 15px;
+    text-align: center;
+}
+.float_left_img{
+    float: left;
+    margin: 0 0 10px 10px;
+    padding: 15px;
+    text-align: center;
+	
 }
 .btn {
 	width: 153px;

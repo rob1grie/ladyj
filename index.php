@@ -63,13 +63,13 @@ require_once 'includes/headinc.php';
 					</header>
 				</div>
 				<div class="grid_4">
-					<div class="element"><h3><a href="#">Body Wraps</a></h3></div>
+					<div class="element"><h3><a href="bodywraps.php">Body Wraps</a></h3></div>
 				</div>
 				<div class="grid_4">
-					<div class="element"><h3><a href="#">Foot Detox</a></h3></div>
+					<div class="element"><h3><a href="footdetox.php">Foot Detox</a></h3></div>
 				</div>
 				<div class="grid_4">
-					<div class="element"><h3><a href="#">3 Day Cleanse</a></h3></div>
+					<div class="element"><h3><a href="cleanse.php">3 Day Cleanse</a></h3></div>
 				</div>
 			</div>
 		</div>

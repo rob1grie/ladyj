@@ -24,8 +24,10 @@ require_once 'includes/headinc.php';
 							<div class="img_container"><img src="images/bodywrap-pink-img.jpg" alt="img"></div>
 						</div>
 						<div class="grid_4">
-							<h5><a href="#">Infrared Body Wrap</a></h5>
-							<p></p>
+							<h5><a href="bodywraps.php">Infrared Body Wrap</a></h5>
+							<p>Infrared body wraps are thermal body wraps that are performed through the use of a 3 zone thermal 
+								blanket. You can burn from 900 to 1400 calories (depending on individual body metabolism) or 
+								more in just one 45 minute session.</p>
 						</div>
 					</article>
 					<article class="clearfix">
@@ -33,17 +35,19 @@ require_once 'includes/headinc.php';
 							<div class="img_container"><img src="images/foot-detox-img.jpg" alt="img"></div>
 						</div>
 						<div class="grid_4">
-							<h5><a href="#">Foot Detox</a></h5>
-							<p></p>
+							<h5><a href="footdetox.php">Foot Detox</a></h5>
+							<p>Sit in comfort and watch the toxins as they release through your feet into the ion 
+								energy charged foot bath. You will be amazed at what you see. </p>
 						</div>
 					</article>
 					<article class="clearfix">
 						<div class="grid_4 alpha">
-							<div class="img_container"><img src="images/index-3_img-3.jpg" alt="img"></div>
+							<div class="three_border"><img src="images/suero-img.png" alt="img"></div>
 						</div>
 						<div class="grid_4">
-							<h5><a href="#">Three Day Cleanse</a></h5>
-							<p></p>
+							<h5><a href="cleanse.php">Three Day Cleanse</a></h5>
+							<p>The SueroViv 3-Day Cleanse, available in Bronze, Silver and Gold, is designed to support the body’s natural cleansing and 
+								detoxification systems, helping you to reach a higher level of health.</p>
 						</div>
 					</article>
 				</div>
