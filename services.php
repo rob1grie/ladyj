@@ -21,7 +21,7 @@ require_once 'includes/headinc.php';
 				<div class="grid_8">
 					<article class="clearfix">
 						<div class="grid_4 alpha">
-							<div class="img_container"><img src="images/bodywrap-pink-img.jpg" alt="img"></div>
+							<div class="img_container border_right_bottom"><img src="images/bodywrap-pink-img.jpg" alt="img"></div>
 						</div>
 						<div class="grid_4">
 							<h5><a href="bodywraps.php">Infrared Body Wrap</a></h5>
@@ -32,7 +32,7 @@ require_once 'includes/headinc.php';
 					</article>
 					<article class="clearfix">
 						<div class="grid_4 alpha">
-							<div class="img_container"><img src="images/foot-detox-img.jpg" alt="img"></div>
+							<div class="img_container border_right_bottom"><img src="images/foot-detox-img.jpg" alt="img"></div>
 						</div>
 						<div class="grid_4">
 							<h5><a href="footdetox.php">Foot Detox</a></h5>
@@ -42,7 +42,7 @@ require_once 'includes/headinc.php';
 					</article>
 					<article class="clearfix">
 						<div class="grid_4 alpha">
-							<div class="three_border"><img src="images/suero-img.png" alt="img"></div>
+							<div class="img_container border_right_bottom"><img src="images/suero-img.png" alt="img"></div>
 						</div>
 						<div class="grid_4">
 							<h5><a href="cleanse.php">Three Day Cleanse</a></h5>

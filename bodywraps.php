@@ -18,7 +18,7 @@ require_once 'includes/headinc.php';
 									<div class="img_container"><img src="images/jessie.jpg" alt="img"></div>
 								</div>-->
 				<div class="grid_12">
-					<div class="img_container float_right_img">
+					<div class="img_container float_left_img border_right_bottom">
 						<img src="images/bodywrap-pink-img.jpg" />
 					</div>
 					<p>Infrared body wraps are thermal body wraps that are performed through the use of a 3 zone thermal blanket. 
