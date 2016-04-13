@@ -17,7 +17,7 @@ require_once 'includes/headinc.php';
 				<!--				<div class="grid_4">
 									<div class="img_container"><img src="images/jessie.jpg" alt="img"></div>
 								</div>-->
-				<div class="grid_12">
+				<div class="grid_9">
 					<div class="img_container float_left_img border_right_bottom">
 						<img src="images/bodywrap-pink-img.jpg" />
 					</div>
@@ -37,7 +37,7 @@ require_once 'includes/headinc.php';
 						The Infrared Body Wrap reverses this process by breaking the fat down into calories and placing them 
 						back into the blood stream to be used as energy.</p><br>
 					<p>You can burn from 900 to 1400 calories (depending on individual body metabolism) or more in just one 
-						45 minute session.</p><br>
+						45 to 60 minute session.</p><br>
 					<p>Infrared energy increases the body's molecular vibration by actually vibrating the cell structure to help break the connections between deposits, such as fats and toxins, generating heat which is absorbed through the skin. Continuous vibration of the body's molecules does the following:</p>
 					<div class="content_list">
 						<ul>
@@ -59,6 +59,9 @@ require_once 'includes/headinc.php';
 							<li>Improved appearance of cellulite</li>
 						</ul>
 					</div>
+				</div>
+				<div class="grid_2 border_left_bottom">
+					<h6><a class="pink-link" href="/downloads/BodyWrapPrepForm.pdf" target="_blank">Download<br>Body Wrap<br>Preparations form</a></h6>
 				</div>
 				<p>&nbsp;</p>
 				<p>&nbsp;</p>

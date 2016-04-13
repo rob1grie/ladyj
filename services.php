@@ -13,7 +13,7 @@ require_once 'includes/headinc.php';
 			<div class="row">
 				<div class="grid_12">
 					<header>
-						<h2><span> Main Services</span></h2>
+						<h2><span> Lady J's Services</span></h2>
 					</header>
 				</div>
 			</div>
@@ -74,7 +74,7 @@ require_once 'includes/headinc.php';
 			</div>
 		</div>
 	</div>
-	<div class="full-width-container block-2">
+	<div id="testimonials" class="full-width-container block-2">
 		<div class="container">
 			<div class="row">
 					<div class="grid_12">

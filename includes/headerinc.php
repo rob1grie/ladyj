@@ -47,7 +47,11 @@ switch ($current) {
 							<li class="<?php echo $about_class; ?>"><a href="about.php">About</a></li>
 							<li class="<?php echo $services_class; ?>"><a href="services.php">Services</a>
 								<ul>
-									<li><a href="bodywraps.php">Body Wraps</a></li>
+									<li><a href="bodywraps.php">Body Wraps</a>
+										<ul>
+											<li><a href="/downloads/BodyWrapPrepForm.pdf" target="_blank">Download Prep form</a></li>
+										</ul>
+									</li>
 									<li><a href="footdetox.php">Foot Detox</a></li>
 									<li><a href="cleanse.php">3 Day Cleanse</a></li>
 								</ul>

@@ -42,14 +42,16 @@ require_once 'includes/headinc.php';
 						<h2><span>Welcome to My Salon</span></h2>
 					</header>
 					<h4><a href="#">Thin It to Win It!</a></h4>
-					<p>Gamus at magna non nunc tristique rhoncuseri tym. Aliquam nibh ante, egestas id dictum 
-						aterert commodo re luctus libero. Praesent faucibus malesuada cibuste. Donec laoreet 
-						metus id laoreet malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-						Nullam consectetur orci sed rabitur vel lorem sit amet nulla ullamcorper fermentum. <br><br>
-						In vitae varius augue, eu consectetur ligula. Etiam dui eros, laoreet sit amet est vel, 
-						commodo venenatis eros. Donec laoreet metus id laoreet malesuada. Lorem ipsum dolor sit amet, 
-						consectetur adipiscing elit.</p>
-					<a href="#" class="btn">more</a>
+					<p class="bold-text larger_text">Hello and welcome to the <span class="pink-text">Lady J's Body Wraps and More</span> website!</p><br>
+					<p class="larger_text">I'm so glad you came, because this can be the first step towards a transformed life. Each of our 
+						services can result in wonderful changes to how you look and feel, both outside and in. 
+						We know that when our health is suffering, so is our overall wellbeing. And it is your overall 
+						wellbeing that becomes my sole purpose for you, as we evaluate your needs and begin the journey to 
+						your joyful new life!</p><br>
+					<p class="larger_text">Please view the <a href="services.php" class="pink_link">services I provide</a>, and see 
+						<a href="services.php#testimonials" class="pink_link">what my customers are saying</a>. When you are ready to take the next step towards a new life 
+						visit my Style Seat page to schedule an appointment.</p>
+					<a href="services.php" class="btn">more</a>
 				</div>
 			</div>
 		</div>
@@ -70,38 +72,6 @@ require_once 'includes/headinc.php';
 				</div>
 				<div class="grid_4">
 					<div class="element"><h3><a href="cleanse.php">3 Day Cleanse</a></h3></div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="full-width-container block-5">
-		<div class="container">
-			<div class="row">
-				<div class="grid_12">
-					<header>
-						<h2><span>News</span></h2>
-					</header>
-				</div>
-				<div class="grid_4">
-					<article>
-						<h3><a href="#">November 2014</a></h3>
-						<p>Gamus at magna non nunc tristique rhoncuseri tym. Aliquam nibh ante, egestas id dictum aterert commodo re luctus libero. Praesent faucibus malesuada cibuste.</p>
-						<a href="#" class="btn">More</a>
-					</article>
-				</div>
-				<div class="grid_4">
-					<article>
-						<h3><a href="#">March 2015</a></h3>
-						<p>Damus at magna non nunc tristique rhoncuseri tym. Aliquam nibh ante, egestas id dictum aterert commodo re luctus libero. Praesent faucibus malesuada cibust.</p>
-						<a href="#" class="btn">More</a>
-					</article>
-				</div>
-				<div class="grid_4">
-					<article>
-						<h3><a href="#">June 2015</a></h3>
-						<p>Jamus at magna non nunc tristique rhoncuseri tym. Aliquam nibh ante, egestas id dictum aterert commodo re luctus libero. Praesent faucibus malesuadaonec. </p>
-						<a href="#" class="btn">More</a>
-					</article>
 				</div>
 			</div>
 		</div>
