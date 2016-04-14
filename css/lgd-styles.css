@@ -1,0 +1,101 @@
+/*
+	Styles that have been added to the 52524 template
+*/
+
+a.pink-link {
+	color: #af0837;
+	transition: initial;
+}
+
+a.pink-link:hover {
+	color: #614134;
+}
+
+a.pink-link:visited {
+	color: #614134;
+}
+
+h6 {
+	font-size: 20px;
+	line-height: 20px;
+	font-family: 'Marvel', sans-serif;
+	text-align: center;
+	margin-bottom: 20px;
+	color: #000000;
+}
+
+.content_list ul {
+	list-style: square inside;
+	font: 14px/24px 'Open Sans', sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	color: #727070;	
+	padding: 10px 0px 10px 50px;
+	margin: 0 auto;
+	width: 50%;
+}
+
+.three_border img {
+	border-top: solid 2px #614134;
+	border-left: solid 2px #614134;
+	border-bottom: solid 2px #614134;
+}
+
+.border_left_top {
+	border-left: solid 2px #614134;
+	border-top: solid 2px #614134;	
+}
+
+.border_right_bottom {
+	border-right: solid 2px #614134;
+	border-bottom: solid 2px #614134;	
+}
+
+.border_left_bottom {
+	border-left: solid 2px #614134;
+	border-bottom: solid 2px #614134;	
+}
+
+.float_right_img {
+    float: right;
+    margin: 15px;
+    text-align: center;
+}
+
+.float_left_img{
+    float: left;
+    margin: 15px;
+    text-align: center;
+}
+
+.pink_text {
+	color: #af0837;
+}
+
+.bold_text {
+	font-weight: bold;
+}
+
+.larger_text {
+	font-size: 1.1rem;
+}
+
+.smaller_text {
+	font-size: .9rem;
+}
+
+.sidebar_link {
+	font-family: 'Marvel', sans-serif;
+	font-weight: bold;
+	font-size: 1rem;
+	margin-top: 8px;
+	padding-bottom: 10px;
+	width: 90%;
+/*	text-align: center;
+	border-bottom: 1px solid #614134;*/
+	line-height: 100%;
+}
+
+.sidebar_author {
+	font-size: .9rem;
+}

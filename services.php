@@ -1,7 +1,8 @@
 <?php require_once 'includes/startdocinc.php'; ?>
-<?php 
+<?php
 $page_title = "Our Services";
-require_once 'includes/headinc.php'; 
+require_once 'includes/headinc.php';
+
 ?>
 <?php require_once 'includes/headerinc.php'; ?>
 
@@ -52,23 +53,11 @@ require_once 'includes/headinc.php';
 					</article>
 				</div>
 				<div class="grid_4">
-					<h5 class="h5__mod"><a href="#">Useful links</a></h5>
+					<h5 class="h5__mod"><a href="#">Helpful links</a></h5>
 					<ul>
-						<li><a href="#">Gamus at magna non nunc tristique rho</a></li>
-						<li><a href="#">Aliquam nibh ante, egestas id dictum a</a></li>
-						<li><a href="#">Praesent faucibus malesuada cibuste</a></li>
-						<li><a href="#">Donec laoreet metus id laoreet malesuada</a></li>
-						<li><a href="#">Lorem ipsum dolor sit amet, consectetur adiit </a></li>
-						<li><a href="#">Nullam consectetur orci seit amet nulla ullamcorper </a></li>
-						<li><a href="#">Fermentun vitae varius augue </a></li>
-						<li><a href="#">Etiam dui eros, laoreet sit amet est velvenenatis</a></li>
-						<li><a href="#">Lamus at magna non nunc tristique </a></li>
-						<li><a href="#">Aliquam nibh ante, egestas id dictum aterertc</a></li>
-						<li><a href="#">Praesent faucibus malesuada cibustenec laus </a></li>
-						<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisci</a></li>
-						<li><a href="#">Nullam consectetur orci sed Curabitur vel lorem</a></li>
-						<li><a href="#">Anulla ullamcorper fermentumertoli noto dert</a></li>
-						<li><a href="#">In vitae varius nsectetur destro werlo das</a></li>
+						<li><a href="http://blog.fitbodywrap.com/do-body-wraps-work/" target="_blank">Do Infrared Body Wraps Work?</a></li>
+						<li><a href="http://blog.fitbodywrap.com/9-misconceptions-about-infrared-body-wraps" target="_blank">9 Misconceptions About Infrared Body Wraps</a></li>
+						<li><a href="http://blog.fitbodywrap.com/qa-with-dr-flickstein-on-fighting-cellulite/" target="_blank">Q&amp;A with Dr. Flickstein on Fighting Cellulite</a></li>
 					</ul>
 				</div>
 			</div>
@@ -77,11 +66,11 @@ require_once 'includes/headinc.php';
 	<div id="testimonials" class="full-width-container block-2">
 		<div class="container">
 			<div class="row">
-					<div class="grid_12">
-						<header>
-							<h2><span>Testimonials</span></h2>
-						</header>
-					</div>
+				<div class="grid_12">
+					<header>
+						<h2><span>Testimonials</span></h2>
+					</header>
+				</div>
 				<div class="grid_4">
 					<div class="text_content"><p>"I love the exclusive pampering and the relaxing environment. Lady J is a great listener and tailors her services to fit your goals. On my first visit, I was very stressed and flabby. When I left, I was relaxed and the flab looked ironed out. On my second visit, I was svelte! Flawless."</p> </div>
 					<h5>Sharon S. 6/02/15</h5>

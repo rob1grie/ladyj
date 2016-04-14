@@ -17,7 +17,7 @@ require_once 'includes/headinc.php';
 				<!--				<div class="grid_4">
 									<div class="img_container"><img src="images/jessie.jpg" alt="img"></div>
 								</div>-->
-				<div class="grid_9">
+				<div class="grid_8">
 					<div class="img_container float_left_img border_right_bottom">
 						<img src="images/bodywrap-pink-img.jpg" />
 					</div>
@@ -60,8 +60,22 @@ require_once 'includes/headinc.php';
 						</ul>
 					</div>
 				</div>
-				<div class="grid_2 border_left_bottom">
-					<h6><a class="pink-link" href="/downloads/BodyWrapPrepForm.pdf" target="_blank">Download<br>Body Wrap<br>Preparations form</a></h6>
+				<div class="grid_4">
+					<div class="border_left_bottom" style="width: 70%; margin: auto;">
+						<h6>
+							<a class="pink-link" href="/downloads/BodyWrapPrepForm.pdf" target="_blank">
+								Download<br>Body Wrap<br>Preparations form
+							</a>
+						</h6>
+					</div><br>
+					<div>
+						<h5 class="h5__mod">Helpful Links</h5>
+						<ul>
+							<li><a href="http://blog.fitbodywrap.com/do-body-wraps-work/" target="_blank">Do Infrared Body Wraps Work?</a></li>
+							<li><a href="http://blog.fitbodywrap.com/9-misconceptions-about-infrared-body-wraps" target="_blank">9 Misconceptions About Infrared Body Wraps</a></li>
+							<li><a href="http://blog.fitbodywrap.com/qa-with-dr-flickstein-on-fighting-cellulite/" target="_blank">Q&amp;A with Dr. Flickstein on Fighting Cellulite</a></li>
+						</ul>
+					</div>
 				</div>
 				<p>&nbsp;</p>
 				<p>&nbsp;</p>
