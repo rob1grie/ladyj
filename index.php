@@ -31,6 +31,11 @@ require_once 'includes/headinc.php';
 						<h3>&nbsp;</h3>
 					</div>
 				</div>
+				<div class="item" data-src="images/suero-viv-slide.jpg">
+					<div class="camera_caption fadeIn">
+						<h3>&nbsp;</h3>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
