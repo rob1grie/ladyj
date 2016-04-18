@@ -14,9 +14,6 @@ require_once 'includes/headinc.php';
 						<h2><span>Three-Day Cleanse</span></h2>
 					</header>
 				</div>
-<!--				<div class="grid_4">
-					<div class="img_container"><img src="images/jessie.jpg" alt="img"></div>
-				</div>-->
 				<div class="grid_12">
 					<div class="img_container float_left_img border_right_bottom">
 						<img src="images/suero-img.png" />

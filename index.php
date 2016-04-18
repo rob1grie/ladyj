@@ -20,10 +20,7 @@ require_once 'includes/headinc.php';
 				<div class="item" data-src="images/bodywrap.jpg">
 					<div class="camera_caption fadeIn">
 						<h3>We'll Make You Noticeable</h3>
-						<p>Contact Us by</p>
-						<a href="#" class="btn bd-ra"><span class="fa fa-envelope-o"></span></a>
-						<a href="#" class="btn bd-ra"><span class="fa fa-phone"></span></a>
-						<a href="#" class="btn bd-ra"><span class="fa fa-map-marker"></span></a>
+						<p><a href="contact.php">Contact Us</a></p>
 					</div>
 				</div>
 				<div class="item" data-src="images/foot-spa-slide.jpg">
@@ -55,7 +52,9 @@ require_once 'includes/headinc.php';
 						your joyful new life!</p><br>
 					<p class="larger_text">Please view the <a href="services.php" class="pink_link">services I provide</a>, and see 
 						<a href="services.php#testimonials" class="pink_link">what my customers are saying</a>. When you are ready to take the next step towards a new life 
-						visit my Style Seat page to schedule an appointment.</p>
+						visit my <a href="https://www.styleseat.com/v/jessiemayberry?utm_campaign=579998&utm_medium=Widgets&utm_source=Badges&utm_content=button" target="_blank">
+											Style Seat
+										</a> page to schedule an appointment.</p>
 					<a href="services.php" class="btn">more</a>
 				</div>
 			</div>
