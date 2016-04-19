@@ -68,6 +68,11 @@ h6 {
     text-align: center;
 }
 
+.center_img {
+	display: block;
+	margin: auto;
+}
+
 .pink_text {
 	color: #af0837;
 }
@@ -98,4 +103,8 @@ h6 {
 
 .sidebar_author {
 	font-size: .9rem;
+}
+
+.margin_20_left {
+	margin-left: 20px;
 }

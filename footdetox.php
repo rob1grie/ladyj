@@ -9,28 +9,52 @@ require_once 'includes/headinc.php';
 	<div class="full-width-container block-1">
 		<div class="container">
 			<div class="row">
-				<div class="grid_12">
-					<header>
-						<h2><span>Ionic Foot Detox</span></h2>
-					</header>
-				</div>
-<!--				<div class="grid_4">
-					<div class="img_container"><img src="images/jessie.jpg" alt="img"></div>
-				</div>-->
-				<div class="grid_12">
+				<div class="grid_8">
+
 					<div class="img_container float_left_img border_right_bottom">
 						<img src="images/foot-detox-img.jpg" />
 					</div>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</p><br>
-					<p>
-						Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. 
-					</p><br>
-					<p>
-						Fusce convallis, mauris imperdiet gravida bibendum, nisl turpis suscipit mauris, sed placerat ipsum urna sed risus. In convallis tellus a mauris. Curabitur non elit ut libero tristique sodales. Mauris a lacus. Donec mattis semper leo. In hac habitasse platea dictumst. Vivamus facilisis diam at odio. Mauris dictum, nisi eget consequat elementum, lacus ligula molestie metus, non feugiat orci magna ac sem. Donec turpis. Donec vitae metus. Morbi tristique neque eu mauris. Quisque gravida ipsum non sapien. Proin turpis lacus, scelerisque vitae, elementum at, lobortis ac, quam. Aliquam dictum eleifend risus. In hac habitasse platea dictumst. Etiam sit amet diam. Suspendisse odio. Suspendisse nunc. In semper bibendum libero.
-					</p>
-
+					<div class="margin_20_left">
+						<header>
+							<h2><span>Ionic Foot Detox</span></h2>
+						</header>
+						<p>
+							The Ionic Cleanse Detox Machine is a high-tech water detoxification system that facilitates 
+							the body's ability to heal itself. The Ionic Cleanse Detox Machine is a water foot-bath that 
+							utilizes steel electrodes, which cleans, balances, and enhances bio-energy, a vital force present 
+							in the body's fluids.
+						</p><br>
+						<p>The action of the machine is to help your body with:
+						</p><br>
+						<div class="content_list">
+							<ul>
+								<li>Less fluid retention</li>
+								<li>Reduction in inflammation</li>
+								<li>Improved memory</li>
+								<li>Improved bladder control</li>
+								<li>A more balanced PH</li>
+								<li>A stronger immune system</li>
+								<li>Significant pain relief, inclusive of, but not limited to Arthritis, gout and headaches</li>
+							</ul>
+						</div>
+						<div>
+							<img class="center_img" src="images/detox-colors.jpg">
+						</div>
+						<p><br>While using the Ionic Cleanse Detox Machine, you will actually see the cleansing process as 
+							the water interacts with a compound electric current along with a frequency field structure.</p>
+						<div>
+							<img class="center_img" src="images/detox-before-after.jpg">
+						</div>
+						<p>&nbsp;</p>
+					</div>
+				</div>
+				<div class="grid_4">
+					<div>
+						<h5 class="h5__mod">Helpful Links</h5>
+						<ul>
+							<li>&nbsp;</li>
+						</ul>
+					</div>
 				</div>
 				<p>&nbsp;</p>
 				<p>&nbsp;</p>
