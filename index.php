@@ -19,7 +19,7 @@ require_once 'includes/headinc.php';
 				</div>
 				<div class="item" data-src="images/bodywrap.jpg">
 					<div class="camera_caption fadeIn">
-						<h3>We'll Make You Noticeable</h3>
+						<h3>We'll Make You Noticeable!</h3>
 						<p><a href="contact.php">Contact Us</a></p>
 					</div>
 				</div>

@@ -24,6 +24,10 @@ h6 {
 	color: #000000;
 }
 
+article {
+	margin-bottom: 15px;
+}
+
 .content_list ul {
 	list-style: square inside;
 	font: 14px/24px 'Open Sans', sans-serif;

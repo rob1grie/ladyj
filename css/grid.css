@@ -235,7 +235,7 @@ table {
   margin-left: 230px;
 }
 .preffix_1 {
-  margin-left: 130px;
+  margin-left: 55px;
 }
 .container {
   margin-right: auto;
@@ -346,7 +346,7 @@ table {
     margin-left: 180px;
   }
   .preffix_1 {
-    margin-left: 100px;
+    margin-left: 42px;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
@@ -441,7 +441,7 @@ table {
     margin-left: 148px;
   }
   .preffix_1 {
-    margin-left: 84px;
+    margin-left: 35px;
   }
 }
 .select-menu {
