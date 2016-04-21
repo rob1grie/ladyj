@@ -9,12 +9,12 @@ require_once 'includes/headinc.php';
 	<div class="full-width-container block-1">
 		<div class="container">
 			<div class="row">
-				<div class="grid_12 ">
+				<div class="grid_8">
 
-					<div class="img_container float_right_img border_left_bottom ">
+					<div class="img_container float_left_img border_right_bottom">
 						<img src="images/foot-detox-img.jpg" />
 					</div>
-					<div class="margin_20_left" >
+					<div class="margin_20_left">
 						<header>
 							<h2><span>Ionic Foot Detox</span></h2>
 						</header>
@@ -24,8 +24,6 @@ require_once 'includes/headinc.php';
 							utilizes steel electrodes, which cleans, balances, and enhances bio-energy, a vital force present 
 							in the body's fluids.
 						</p><br>
-					</div>
-					<div class="margin_20_left">
 						<p>The action of the machine is to help your body with:
 						</p><br>
 						<div class="content_list">
@@ -48,6 +46,14 @@ require_once 'includes/headinc.php';
 							<img class="center_img" src="images/detox-before-after.jpg">
 						</div>
 						<p>&nbsp;</p>
+					</div>
+				</div>
+				<div class="grid_4">
+					<div>
+						<h5 class="h5__mod">Helpful Links</h5>
+						<ul>
+							<li>&nbsp;</li>
+						</ul>
 					</div>
 				</div>
 				<p>&nbsp;</p>
