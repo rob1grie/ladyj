@@ -5,6 +5,61 @@ require_once 'includes/headinc-contact.php';
 
 ?>
 <?php require_once 'includes/headerinc.php'; ?>
+<!-- PHP for processing mail form -->
+<?php
+// define variables and set to empty values
+$nameErr = $emailErr = $genderErr = $websiteErr = "";
+$name = $email = $gender = $comment = $website = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST")
+{
+	if (empty($_POST["name"]))
+	{
+		$nameErr = "Name is required";
+	}
+	else
+	{
+		$name = test_input($_POST["name"]);
+		// check if name only contains letters and whitespace
+		if (!preg_match("/^[a-zA-Z ]*$/", $name))
+		{
+			$nameErr = "Only letters and spaces allowed";
+		}
+	}
+
+	if (empty($_POST["email"]))
+	{
+		$emailErr = "Email is required";
+	}
+	else
+	{
+		$email = test_input($_POST["email"]);
+		// check if e-mail address is well-formed
+		if (!filter_var($email, FILTER_VALIDATE_EMAIL))
+		{
+			$emailErr = "Invalid email format";
+		}
+	}
+
+	if (empty($_POST["comment"]))
+	{
+		$comment = "";
+	}
+	else
+	{
+		$comment = test_input($_POST["comment"]);
+	}
+}
+
+function test_input($data)
+{
+	$data = trim($data);
+	$data = stripslashes($data);
+	$data = htmlspecialchars($data);
+	return $data;
+}
+
+?>
 
 <!--=======content================================-->
 
@@ -29,41 +84,27 @@ require_once 'includes/headinc-contact.php';
 		<div class="container">
 			<div class="row">
 				<div class="grid_5">
-					<form action="mailer.php" method="post" name="form1" id="form1" style="margin:0px; font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px; width:300px;" onsubmit="MM_validateForm('from', '', 'RisEmail', 'subject', '', 'R', 'verif_box', '', 'R', 'message', '', 'R');
-		return document.MM_returnValue">
-
-						Your Name:<br />
-						<input name="name" type="text" id="name" style="padding:2px; border:1px solid #CCCCCC; width:180px; height:14px; font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;" value="<?php echo $_GET['name']; ?>"/>
-						<br />
-						<br />
-
-						Your e-mail:<br />
-						<input name="from" type="text" id="from" style="padding:2px; border:1px solid #CCCCCC; width:180px; height:14px; font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;" value="<?php echo $_GET['from']; ?>"/>
-						<br />
-						<br />
-
-						Subject:<br />
-						<input name="subject" type="text" id="subject" style="padding:2px; border:1px solid #CCCCCC; width:180px; height:14px;font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px;" value="<?php echo $_GET['subject']; ?>"/>
-						<br />
-						<br />
-
-						Type verification image:<br />
-						<input name="verif_box" type="text" id="verif_box" style="padding:2px; border:1px solid #CCCCCC; width:180px; height:14px;font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px;"/>
-						<img src="verificationimage.php?<?php echo rand(0, 9999); ?>" alt="verification image, type it in the box" width="50" height="24" align="absbottom" /><br />
-						<br />
-
-						<!-- if the variable "wrong_code" is sent from previous page then display the error field -->
-						<?php if (isset($_GET['wrong_code']))
-						{ ?>
-							<div style="border:1px solid #990000; background-color:#D70000; color:#FFFFFF; padding:4px; padding-left:6px;width:295px;">Wrong verification code</div><br /> 
-	<?php;
-} ?>
-
-						Message:<br />
-						<textarea name="message" cols="6" rows="5" id="message" style="padding:2px; border:1px solid #CCCCCC; width:300px; height:100px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px;"><?php echo $_GET['message']; ?></textarea>
-						<noscript><a href="http://www.thewebhelp.com" style="display:none;">contact form by thewebhelp</a></noscript>
-						<input name="Submit" type="submit" style="margin-top:10px; display:block; border:1px solid #000000; width:100px; height:20px;font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; padding-left:2px; padding-right:2px; padding-top:0px; padding-bottom:2px; line-height:14px; background-color:#EFEFEF;" value="Send Message"/>
-					</form>				</div>
+					<p><span class="error">* required field.</span></p>
+					<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+						Name: <input type="text" name="name" value="<?php echo $name; ?>">
+						<span class="error">* <?php echo $nameErr; ?></span>
+						<br><br>
+						E-mail: <input type="text" name="email" value="<?php echo $email; ?>">
+						<span class="error">* <?php echo $emailErr; ?></span>
+						<br><br>
+						Website: <input type="text" name="website" value="<?php echo $website; ?>">
+						<span class="error"><?php echo $websiteErr; ?></span>
+						<br><br>
+						Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment; ?></textarea>
+						<br><br>
+						Gender:
+						<input type="radio" name="gender" <?php if (isset($gender) && $gender == "female") echo "checked"; ?>  value="female">Female
+						<input type="radio" name="gender" <?php if (isset($gender) && $gender == "male") echo "checked"; ?>  value="male">Male
+						<span class="error">* <?php echo $genderErr; ?></span>
+						<br><br>
+						<input type="submit" name="submit" value="Submit">
+					</form>
+				</div>
 				<div class="grid_6 preffix_1">
 					<div>
 						<hader>

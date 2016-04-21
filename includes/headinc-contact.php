@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/contact-form.css">
+	<link rel="stylesheet" href="css/lgd-styles.css">
 
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery-migrate-1.2.1.js"></script>

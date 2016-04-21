@@ -28,15 +28,18 @@ article {
 	margin-bottom: 15px;
 }
 
+.clearfix {
+	overflow: auto;
+}
 .content_list ul {
-	list-style: square inside;
+	list-style: square outside;
 	font: 14px/24px 'Open Sans', sans-serif;
 	font-style: italic;
 	font-weight: bold;
 	color: #727070;	
 	padding: 10px 0px 10px 50px;
 	margin: 0 auto;
-	width: 50%;
+	width: 75%;
 }
 
 .three_border img {
@@ -51,7 +54,7 @@ article {
 }
 
 .border_right_bottom {
-	border-right: solid 2px #614134;
+	border-right: solid 2px  ;
 	border-bottom: solid 2px #614134;	
 }
 
@@ -112,3 +115,5 @@ article {
 .margin_20_left {
 	margin-left: 20px;
 }
+
+.error {color: #FF0000;}
