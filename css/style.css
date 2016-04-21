@@ -263,6 +263,7 @@ h2 {
 	text-align: center;
 	margin-bottom: 30px;
 	margin-top: 10px;
+	color: #614134;
 }
 h2 span {
 	position: relative;
@@ -271,7 +272,7 @@ h2 span:before {
 	height: 2px;
 	position: absolute;
 	bottom: 7px;
-	background: #000;
+	background: #614134;
 	width: 100%;
 	content: "";
 	display: block;
