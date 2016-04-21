@@ -18,6 +18,9 @@ require_once 'includes/headinc.php';
 							<h2><span>Three-Day Cleanse</span></h2>
 						</header>
 						<p>
+							<span style="font-size: .7rem">[Extracted from the 
+								<a href="downloads/SueroCleanse_Booklet.pdf" target="_blank">SuervoCleanse booklet</a>
+								]</span><br>
 							Every day you are exposed to some type of toxin – whether it be environmental pollution, cigarette smoke, 
 							household cleaning products, chemicals found in drinking water or food, heavy metals, aluminum from cans, 
 							radiation from microwaves and cell phones, just to name a few!

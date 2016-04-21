@@ -54,10 +54,15 @@ require_once 'includes/headinc.php';
 				</div>
 				<div class="grid_4">
 					<h5 class="h5__mod"><a href="#">Helpful links</a></h5>
-					<ul>
+					<ul class="sidebar_link">
 						<li><a href="http://blog.fitbodywrap.com/do-body-wraps-work/" target="_blank">Do Infrared Body Wraps Work?</a></li>
 						<li><a href="http://blog.fitbodywrap.com/9-misconceptions-about-infrared-body-wraps" target="_blank">9 Misconceptions About Infrared Body Wraps</a></li>
 						<li><a href="http://blog.fitbodywrap.com/qa-with-dr-flickstein-on-fighting-cellulite/" target="_blank">Q&amp;A with Dr. Flickstein on Fighting Cellulite</a></li>
+						<hr>
+						<li>
+							<a href="http://www.livingnaturaltoday.com/2012/07/a-skeptical-husband-a-3-day-sueroviv-cleanse/" target="_blank">
+								A Skeptical Husband & A 3-Day SueroViv Cleanse</a>
+						</li>
 					</ul>
 				</div>
 			</div>

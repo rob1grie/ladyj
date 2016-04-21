@@ -9,7 +9,7 @@ include('js/jquery.cookie.js');
 
 /* cookie.JS
 ========================================================*/
-include('js/TMForm.js');
+//include('js/TMForm.js');
 include('js/modal.js');
 
 
@@ -23,7 +23,7 @@ include('js/tmstickup.js');
 $(window).load(function() { 
   if ($('html').hasClass('desktop')) {
       $('#stuck_container').TMStickUp({
-      })
+      });
   }  
 });
 
@@ -87,9 +87,9 @@ $(function(){
 	
 	scaleFix();
 	// Menu Android
-	if(window.orientation!=undefined){
+	if(window.orientation!==undefined){
   var regM = /ipod|ipad|iphone/gi,
-   result = ua.match(regM)
+   result = ua.match(regM);
   if(!result) {
    $('.sf-menu li').each(function(){
     if($(">ul", this)[0]){
@@ -102,7 +102,7 @@ $(function(){
       }
      );
     } 
-   })
+   });
   }
  }
 });
@@ -111,9 +111,9 @@ var ua=navigator.userAgent.toLocaleLowerCase(),
  result = ua.match(regV),
  userScale="";
 if(!result){
- userScale=",user-scalable=0"
+ userScale=",user-scalable=0";
 }
-document.write('<meta name="viewport" content="width=device-width,initial-scale=1.0'+userScale+'">')
+document.write('<meta name="viewport" content="width=device-width,initial-scale=1.0'+userScale+'">');
 
 /* custom hover
 ========================================================*/
@@ -122,4 +122,4 @@ $('.btn').each(function(){
       var title = $(this).html();
       $(this).addClass('custom_hover');
       $(this).html('<span><span>'+title+'</span><strong>'+title+'</strong></span>');
-})
+});
