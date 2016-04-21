@@ -1,7 +1,8 @@
 <?php require_once 'includes/startdocinc.php'; ?>
-<?php 
-	$page_title = "Contact Us";
-	require_once 'includes/headinc-contact.php'; 
+<?php
+$page_title = "Contact Us";
+require_once 'includes/headinc-contact.php';
+
 ?>
 <?php require_once 'includes/headerinc.php'; ?>
 
@@ -28,56 +29,41 @@
 		<div class="container">
 			<div class="row">
 				<div class="grid_5">
-					<form id="contact-form">
-						<div class="contact-form-loader"></div>
-							<header>
-								<h2><span>Contact Form</span></h2>
-							</header>
-							<fieldset>
-									<label class="name">
-										<span class="text">Your Name:</span>
-										<input type="text" name="name" placeholder="" value="" data-constraints="@Required @JustLetters" />
-											<span class="empty-message">*This field is required.</span>
-											<span class="error-message">*This is not a valid name.</span>
-									</label>
-									<label class="email">
-										<span class="text">Your E-mail:</span>
-										<input type="text" name="email" placeholder="" value="" data-constraints="@Required @Email" />
-										<span class="empty-message">*This field is required.</span>
-										<span class="error-message">*This is not a valid email.</span>
-									</label>
-									<label class="phone">
-										<span class="text">Subject:</span>
-										<input type="text" name="phone" placeholder="" value="" data-constraints="@Required" />
-										<span class="empty-message">*This field is required.</span>
-										<span class="error-message">*This is not a valid subject.</span>
-									</label>
-									<label class="message">
-										<span class="text">Message:</span>
-										<textarea name="message" placeholder="" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
-										<span class="empty-message">*This field is required.</span>
-										<span class="error-message">*The message is too short.</span>
-									</label>
-								<div class="cont_btn">
-									<a href="#" data-type="reset" class="btn">Clear</a>
-									<a href="#" data-type="submit" class="btn">Send</a>
-								</div>
-						</fieldset> 
-						<div class="modal fade response-message">
-							<div class="modal-dialog">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-										<h4 class="modal-title">Modal title</h4>
-									</div>
-									<div class="modal-body">
-										You message has been sent! We will be in touch soon.
-									</div>
-								</div>
-							</div>
-						</div>
-					</form>
-				</div>
+					<form action="mailer.php" method="post" name="form1" id="form1" style="margin:0px; font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px; width:300px;" onsubmit="MM_validateForm('from', '', 'RisEmail', 'subject', '', 'R', 'verif_box', '', 'R', 'message', '', 'R');
+		return document.MM_returnValue">
+
+						Your Name:<br />
+						<input name="name" type="text" id="name" style="padding:2px; border:1px solid #CCCCCC; width:180px; height:14px; font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;" value="<?php echo $_GET['name']; ?>"/>
+						<br />
+						<br />
+
+						Your e-mail:<br />
+						<input name="from" type="text" id="from" style="padding:2px; border:1px solid #CCCCCC; width:180px; height:14px; font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;" value="<?php echo $_GET['from']; ?>"/>
+						<br />
+						<br />
+
+						Subject:<br />
+						<input name="subject" type="text" id="subject" style="padding:2px; border:1px solid #CCCCCC; width:180px; height:14px;font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px;" value="<?php echo $_GET['subject']; ?>"/>
+						<br />
+						<br />
+
+						Type verification image:<br />
+						<input name="verif_box" type="text" id="verif_box" style="padding:2px; border:1px solid #CCCCCC; width:180px; height:14px;font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px;"/>
+						<img src="verificationimage.php?<?php echo rand(0, 9999); ?>" alt="verification image, type it in the box" width="50" height="24" align="absbottom" /><br />
+						<br />
+
+						<!-- if the variable "wrong_code" is sent from previous page then display the error field -->
+						<?php if (isset($_GET['wrong_code']))
+						{ ?>
+							<div style="border:1px solid #990000; background-color:#D70000; color:#FFFFFF; padding:4px; padding-left:6px;width:295px;">Wrong verification code</div><br /> 
+	<?php;
+} ?>
+
+						Message:<br />
+						<textarea name="message" cols="6" rows="5" id="message" style="padding:2px; border:1px solid #CCCCCC; width:300px; height:100px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px;"><?php echo $_GET['message']; ?></textarea>
+						<noscript><a href="http://www.thewebhelp.com" style="display:none;">contact form by thewebhelp</a></noscript>
+						<input name="Submit" type="submit" style="margin-top:10px; display:block; border:1px solid #000000; width:100px; height:20px;font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; padding-left:2px; padding-right:2px; padding-top:0px; padding-bottom:2px; line-height:14px; background-color:#EFEFEF;" value="Send Message"/>
+					</form>				</div>
 				<div class="grid_6 preffix_1">
 					<div>
 						<hader>
@@ -113,12 +99,12 @@
 
 <script type="text/javascript">
 	google_api_map_init();
-	function google_api_map_init(){
+	function google_api_map_init() {
 		var map;
-		var coordData = new google.maps.LatLng(parseFloat(40.650408), parseFloat(-73.950030,12));
+		var coordData = new google.maps.LatLng(parseFloat(40.650408), parseFloat(-73.950030, 12));
 		var markCoord1 = new google.maps.LatLng(parseFloat(40.650408), parseFloat(-73.950030));
 		var marker;
-		
+
 		function initialize() {
 			var mapOptions = {
 				zoom: 14,
@@ -127,19 +113,19 @@
 			}
 
 			var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
-			
+
 			marker = new google.maps.Marker({
-				map:map,
+				map: map,
 				position: markCoord1,
 			});
 
-			google.maps.event.addDomListener(window, 'resize', function() {
+			google.maps.event.addDomListener(window, 'resize', function () {
 				map.setCenter(coordData);
 				var center = map.getCenter();
 			});
 		}
 
-		google.maps.event.addDomListener(window, "load", initialize); 
+		google.maps.event.addDomListener(window, "load", initialize);
 
 	}
 
