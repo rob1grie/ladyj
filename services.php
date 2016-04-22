@@ -58,11 +58,9 @@ require_once 'includes/headinc.php';
 						<li><a href="http://blog.fitbodywrap.com/do-body-wraps-work/" target="_blank">Do Infrared Body Wraps Work?</a></li>
 						<li><a href="http://blog.fitbodywrap.com/9-misconceptions-about-infrared-body-wraps" target="_blank">9 Misconceptions About Infrared Body Wraps</a></li>
 						<li><a href="http://blog.fitbodywrap.com/qa-with-dr-flickstein-on-fighting-cellulite/" target="_blank">Q&amp;A with Dr. Flickstein on Fighting Cellulite</a></li>
+						<li><a href="http://blog.fitbodywrap.com/why-we-love-infrared-and-you-should-too" target="_blank">Why We Love Infrared (and you should, too!)</a></li>
 						<hr>
-						<li>
-							<a href="http://www.livingnaturaltoday.com/2012/07/a-skeptical-husband-a-3-day-sueroviv-cleanse/" target="_blank">
-								A Skeptical Husband & A 3-Day SueroViv Cleanse</a>
-						</li>
+						<li><a href="www.jmayberry.youngevity.com" target="_blank">Visit My Youngevity Distributorship page</a></li>
 					</ul>
 				</div>
 			</div>
