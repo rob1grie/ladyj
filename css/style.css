@@ -266,12 +266,14 @@ h2 {
 }
 h2 span {
 	position: relative;
+	color: #614134;
+	font-weight: 500;
 }
 h2 span:before {
 	height: 2px;
 	position: absolute;
 	bottom: 7px;
-	background: #000;
+	background: #614134;
 	width: 100%;
 	content: "";
 	display: block;

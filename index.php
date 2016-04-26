@@ -43,7 +43,7 @@ require_once 'includes/headinc.php';
 					<header>
 						<h2><span>Welcome to My Salon</span></h2>
 					</header>
-					<h4><a href="#">Thin It to Win It!</a></h4>
+					<h4>Thin It to Win It!</h4>
 					<p class="bold-text larger_text">Hello and welcome to the <span class="pink-text">Lady J's Body Wraps and More</span> website!</p><br>
 					<p class="larger_text">I'm so glad you came, because this can be the first step towards a transformed life. Each of our 
 						services can result in wonderful changes to how you look and feel, both outside and in. 

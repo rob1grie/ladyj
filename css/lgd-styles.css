@@ -76,8 +76,9 @@ article {
 }
 
 .center_img {
+	width: 70%;
 	display: block;
-	margin: auto;
+	margin: 0 auto;
 }
 
 .pink_text {

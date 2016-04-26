@@ -15,7 +15,7 @@ require_once 'includes/headinc.php';
 					</header>
 				</div>
 				<div class="grid_4">
-					<div class="img_container border_right_bottom"><img src="images/jessie.jpg" alt="img"></div>
+					<div class="img_container border_right_bottom"><img src="images/jessie.jpg" alt="img"></div><p>&nbsp;</p>
 				</div>
 				<div class="grid_7 preffix_1">
 					<p>Hello my name is Jessie, I have been working in the health care field for over 10 years. 
