@@ -12,7 +12,6 @@
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery-migrate-1.2.1.js"></script>
 	<script src="js/script.js"></script>
-	<script src='//maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false'></script>
 	<!--[if (gt IE 9)|!(IE)]><!-->
 	<script src="js/wow.js"></script>
 	<script>
